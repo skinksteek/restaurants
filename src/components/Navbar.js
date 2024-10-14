@@ -13,6 +13,9 @@ export default function Navbar() {
         <li>
           <Link to="/kontakt">Kontakt</Link>
         </li>
+        <li>
+          <Link to="/hittahit">Hitta hit</Link>
+        </li>
       </ul>
     </nav>
   );

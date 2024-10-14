@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
+import Find from "./pages/Find";
 
 import RootLayout from "./layouts/RootLayouts";
 
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: "meny", element: <Menu /> },
       { path: "kontakt", element: <Contact /> },
+      { path: "hittahit", element: <Find /> },
     ],
   },
 ]);
