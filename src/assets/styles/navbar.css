@@ -1,0 +1,31 @@
+.nav-container {
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-item {
+  list-style-type: none;
+  margin: 1vh;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.hover-underline:hover {
+  color: green;
+}
+
+.logo-wrapper {
+  img {
+    width: 10rem;
+  }
+}
