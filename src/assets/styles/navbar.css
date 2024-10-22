@@ -1,4 +1,5 @@
 .nav-container {
+  background-color: grey;
 }
 
 .nav-wrapper {
@@ -13,9 +14,10 @@
 
 .nav-item {
   list-style-type: none;
-  margin: 1vh;
+  margin: 0 4vh 0 4vh;
 
   a {
+    font-size: 1.25rem;
     text-decoration: none;
   }
 }

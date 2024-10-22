@@ -1,7 +1,9 @@
+import "../assets/styles/home.css";
+
 export default function Home() {
   return (
-    <div>
+    <section className="home-page-container">
       <p>Hem</p>
-    </div>
+    </section>
   );
 }
