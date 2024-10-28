@@ -7,3 +7,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 600;
 }
+
+.rootlayout {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,5 +1,12 @@
 .nav-container {
-  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  position: sticky;
+  background-color: #ffffff80;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-wrapper {
@@ -28,6 +35,6 @@
 
 .logo-wrapper {
   img {
-    width: 10rem;
+    height: 5rem;
   }
 }
