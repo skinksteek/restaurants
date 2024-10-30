@@ -9,6 +9,10 @@ body {
 }
 
 .rootlayout {
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
+}
+
+.main-content {
+  max-width: 2056px;
+  margin: 0 auto;
 }

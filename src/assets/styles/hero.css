@@ -1,17 +1,23 @@
 .hero-container {
-  bottom: 236px;
-  display: flex;
   position: relative;
-  flex-direction: column;
 }
 
-.hero-content {
+.heromodule-content {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.heromodule-textcontent {
+  color: whitesmoke;
+}
+
+.hero-video-parent {
   margin: 0;
 }
-
-.hero-textcontent {
-}
-
 .hero-video {
   height: 100%;
   width: 100%;

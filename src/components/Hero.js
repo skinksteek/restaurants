@@ -6,10 +6,12 @@ import PropTypes from "prop-types";
 export default function Hero({ title, bread }) {
   return (
     <section className="hero-container">
-      <figure className="hero-content">
-        <div className="hero-textcontent">
+      <div className="heromodule-content">
+        <div className="heromodule-textcontent">
           <h2>{title}</h2>
         </div>
+      </div>
+      <figure className="hero-video-parent">
         <video className="hero-video" autoPlay loop muted>
           <source src={heroVideo} type="video/mp4"></source>
         </video>
