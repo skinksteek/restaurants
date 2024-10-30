@@ -1,6 +1,6 @@
 export default function Menu() {
   return (
-    <div>
+    <div className="main-content">
       <p>Meny</p>
     </div>
   );

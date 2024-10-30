@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div>
+    <div className="main-content">
       <p>Kontakt</p>
     </div>
   );

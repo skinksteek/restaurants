@@ -3,10 +3,7 @@ import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
 import Find from "./pages/Find";
-
 import RootLayout from "./layouts/RootLayouts";
-
-import "./assets/styles/App.css";
 
 const router = createBrowserRouter([
   {
