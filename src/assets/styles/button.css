@@ -1,0 +1,55 @@
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 15px 32px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: 30px;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.button span {
+  position: relative;
+  z-index: 1;
+}
+
+.button:hover {
+  transition: 0.3s ease-out;
+  background-color: var(--green-hover);
+}
+
+.button:hover:before {
+  height: 100%;
+}
+
+.button svg {
+  position: relative;
+  margin-left: 15px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: var(--white);
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease-out;
+}
+
+.button:hover svg {
+  transform: translateX(0);
+}
+
+.button:active {
+  transform: scale(0.95);
+}

@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../assets/styles/hero.css";
 import heroVideo from "../assets/videos/6176588-hd_1920_1080_25fps.mp4";
 import PropTypes from "prop-types";
+import Button from "./Button";
 
 export default function Hero({ title, bread }) {
   return (
@@ -10,6 +12,7 @@ export default function Hero({ title, bread }) {
         <div className="heromodule-textcontent">
           <h2>{title}</h2>
         </div>
+        <Button text="Utforska meny" href="/" />
       </div>
       <figure className="hero-video-parent">
         <video className="hero-video" autoPlay loop muted>
