@@ -14,17 +14,17 @@ footer {
     "links links";
   grid-template-columns: repeat(2, 1fr);
   color: var(--white);
-}
 
-footer::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 68px;
-  background: rgb(0 0 0 / 10%);
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 68px;
+    background: rgb(0 0 0 / 10%);
+  }
 }
 
 .logo {
@@ -41,6 +41,7 @@ footer::after {
   gap: 20px;
   font-size: 18px;
   transition: 0.3s ease-in-out;
+
   a:hover {
     transform: scale(1.2);
   }
@@ -52,29 +53,29 @@ footer::after {
   grid-template-columns: repeat(3, 1fr);
   padding: 20px 0 30px;
   justify-items: center;
-}
 
-.info h2 {
-  font-size: 16px;
-  font-weight: 600;
-}
+  & h2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
 
-.info ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-size: 14px;
-  line-height: 1.5;
-  font-weight: 400;
-}
+  & ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+  }
 
-.info address {
-  font-style: normal;
-  line-height: 1.5;
-  font-size: 14px;
+  & adress {
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 14px;
+  }
 }
 
 @media (width < 500px) {

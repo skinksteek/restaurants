@@ -20,9 +20,11 @@
 .heromodule-textcontent h1 {
   font-size: 50px;
 }
+
 .hero-video-parent {
   margin: 0;
 }
+
 .hero-video {
   height: 100%;
   width: 100%;
@@ -31,6 +33,7 @@
 .overlay {
   position: relative;
 }
+
 .overlay::after {
   position: absolute;
   content: "";

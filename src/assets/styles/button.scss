@@ -30,7 +30,7 @@ a {
   background-color: var(--green-hover);
 }
 
-.button:hover:before {
+.button:hover::before {
   height: 100%;
 }
 

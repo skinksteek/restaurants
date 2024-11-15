@@ -1,5 +1,4 @@
 import React from "react";
-import "../assets/styles/footer.css";
 import logo from "../assets/images/logo-trans.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapLocationDot } from "@fortawesome/free-solid-svg-icons";
