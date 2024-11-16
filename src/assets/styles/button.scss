@@ -1,10 +1,3 @@
-a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-  transition: 0.3s ease-out;
-}
-
 .button {
   position: relative;
   display: inline-block;
@@ -18,38 +11,45 @@ a {
   border-radius: 30px;
   overflow: hidden;
   transition: all 0.3s ease-out;
+
+  &:hover {
+    transition: 0.3s ease-out;
+    background-color: var(--green-hover);
+  }
+
+  &:hover::before {
+    height: 100%;
+  }
+
+  & span {
+    position: relative;
+    z-index: 1;
+  }
+
+  & svg {
+    position: relative;
+    margin-left: 15px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: var(--white);
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease-out;
+  }
+
+  &:hover svg {
+    transform: translateX(0);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
 }
 
-.button span {
-  position: relative;
-  z-index: 1;
-}
-
-.button:hover {
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
   transition: 0.3s ease-out;
-  background-color: var(--green-hover);
-}
-
-.button:hover::before {
-  height: 100%;
-}
-
-.button svg {
-  position: relative;
-  margin-left: 15px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: var(--white);
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease-out;
-}
-
-.button:hover svg {
-  transform: translateX(0);
-}
-
-.button:active {
-  transform: scale(0.95);
 }
