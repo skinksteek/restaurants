@@ -31,9 +31,9 @@
 }
 
 .bm-menu {
-  background: #373a47;
+  background: var(--grey);
   padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  font-size: 1.8em;
 }
 
 .bm-morph-shape {
@@ -41,11 +41,12 @@
 }
 
 .bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
+  color: var(--white);
+  letter-spacing: 2px;
 }
 
 .bm-item {
+  margin-bottom: 1vh;
   display: inline-block;
 }
 
