@@ -3,6 +3,7 @@
 @use "./hero";
 @use "./home";
 @use "./navbar";
+@use "./sidebar";
 @import "https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap";
 
 :root {
@@ -28,4 +29,5 @@ body {
 .main-content {
   max-width: 2056px;
   margin: 0 auto;
+  height: 100vh;
 }
