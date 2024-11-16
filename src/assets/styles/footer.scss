@@ -1,3 +1,6 @@
+/* stylelint-disable selector-type-no-unknown */
+/* stylelint-disable named-grid-areas-no-invalid */
+
 .footer-container {
   background: linear-gradient(90deg, #7a673d, #8f4545);
 }
@@ -53,6 +56,7 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   padding: 20px 0 30px;
   justify-items: center;
+  gap: 10rem;
 
   & h2 {
     font-size: 16px;
@@ -78,22 +82,56 @@ footer {
   }
 }
 
-@media (width < 500px) {
-  .info {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px 0;
-    padding: 40px 0 30px;
+@media only screen and (width <= 1362px) {
+  footer {
+    padding-left: 0;
+    padding-right: 0;
+
+    & .info {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    & .socials {
+      padding-right: 20px;
+    }
+
+    & img {
+      padding-left: 20px;
+    }
   }
 }
 
-@media (width < 360px) {
-  footer {
-    grid-template-areas: "logo" "info" "socials";
-    grid-template-columns: 1fr;
+@media only screen and (width <= 873px) {
+  footer .info {
+    gap: 5rem;
   }
+}
 
-  .socials {
-    justify-content: flex-start;
-    padding-bottom: 20px;
+@media only screen and (width <= 565px) {
+  @media only screen and (width <= 565px) {
+    footer {
+      grid-template: "logo socials" auto "links" auto / 1fr auto;
+      row-gap: 20px;
+
+      .info {
+        grid-column: span 2;
+        grid-template-columns: 1fr;
+        display: grid;
+        gap: 20px;
+        justify-items: start;
+        text-align: left;
+      }
+
+      .logo {
+        justify-self: start;
+      }
+
+      .socials {
+        justify-self: end;
+        display: flex;
+        gap: 10px;
+      }
+    }
   }
 }

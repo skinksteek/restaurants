@@ -90,3 +90,27 @@
     }
   }
 }
+
+@media only screen and (width <= 1286px) {
+  .nav-wrapper {
+    max-width: 100%;
+
+    .nav-list {
+      justify-content: center;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  }
+}
+
+@media only screen and (width <= 1024px) {
+  .nav-wrapper .nav-list li a {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (width <= 873px) {
+  .nav-wrapper .nav-list {
+    display: none;
+  }
+}

@@ -34,7 +34,7 @@ export default function Footer() {
             <FontAwesomeIcon icon={faMapLocationDot} size="2xl" />
           </a>
         </div>
-        <div class="info">
+        <div className="info">
           <ul>
             <li>
               <h2>Om oss</h2>
