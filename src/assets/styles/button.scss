@@ -22,18 +22,6 @@
     height: 100%;
   }
 
-  & svg {
-    position: relative;
-    margin-left: 15px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: var(--white);
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease-out;
-  }
-
   &:hover svg {
     transform: translateX(0);
   }
@@ -41,13 +29,13 @@
   &:active {
     transform: scale(0.95);
   }
-}
 
-a {
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-  transition: 0.3s ease-out;
+  & a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+  }
 }
 
 @media only screen and (width <= 375px) {
