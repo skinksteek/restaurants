@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 export default function Button({ text, href, onClick }) {
@@ -8,9 +9,9 @@ export default function Button({ text, href, onClick }) {
     }
   };
   return (
-    <a href={href} className="button" onClick={handleClick}>
+    <Link to={href} className="button" onClick={handleClick}>
       <span>{text}</span>
-    </a>
+    </Link>
   );
 
   Button.propTypes = {

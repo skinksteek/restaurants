@@ -10,7 +10,7 @@ export default function Hero({ title, bread }) {
         <div className="heromodule-textcontent">
           <h1>{title}</h1>
         </div>
-        <Button text="Utforska meny" href="/" />
+        <Button text="Utforska meny" href="/meny" />
       </div>
       <figure className="hero-video-parent overlay">
         <video className="hero-video" autoPlay loop muted>
