@@ -2,6 +2,7 @@
   position: relative;
 
   .heromodule-content {
+    text-align: center;
     margin: 0 auto;
     position: absolute;
     top: 50%;
@@ -18,6 +19,10 @@
       & h1 {
         font-size: 50px;
       }
+
+      & span {
+        letter-spacing: 2px;
+      }
     }
   }
 }
@@ -26,7 +31,8 @@
   margin: 0;
   background: linear-gradient(90deg, #7a673d, #8f4545);
 
-  .hero-video {
+  .hero-video,
+  .hero-image {
     width: 100%;
     height: 100vh;
     object-fit: cover;
