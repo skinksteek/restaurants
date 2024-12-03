@@ -1,21 +1,31 @@
 import React from "react";
-import heroVideo from "../assets/videos/6176588-hd_1920_1080_25fps.mp4";
 import PropTypes from "prop-types";
-import Button from "./Button";
 
-export default function Hero({ title, bread }) {
+export default function Hero({
+  title,
+  bread,
+  mediaType,
+  mediaSrc,
+  altText,
+  children,
+}) {
   return (
     <section className="hero-container">
       <div className="heromodule-content">
         <div className="heromodule-textcontent">
           <h1>{title}</h1>
+          <span>{bread}</span>
         </div>
-        <Button text="Utforska meny" href="/meny" />
+        {children}
       </div>
       <figure className="hero-video-parent overlay">
-        <video className="hero-video" autoPlay loop muted>
-          <source src={heroVideo} type="video/mp4"></source>
-        </video>
+        {mediaType === "video" ? (
+          <video className="hero-video" autoPlay loop muted>
+            <source src={mediaSrc} type="video/mp4" />
+          </video>
+        ) : (
+          <img className="hero-image" src={mediaSrc} alt={altText} />
+        )}
       </figure>
     </section>
   );
@@ -23,5 +33,9 @@ export default function Hero({ title, bread }) {
   Hero.propTypes = {
     title: PropTypes.string.isRequired,
     bread: PropTypes.string.isRequired,
+    mediaType: PropTypes.oneOf(["video", "image"]).isRequired,
+    mediaSrc: PropTypes.string.isRequired,
+    alt: PropTypes.string.isRequired,
+    children: PropTypes.node,
   };
 }

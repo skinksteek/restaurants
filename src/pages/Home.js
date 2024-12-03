@@ -3,11 +3,19 @@ import Menu from "../components/SideBar";
 import pepperoni from "../assets/images/pepperoni-pizza.jpg";
 import veggie from "../assets/images/veggie-pizza.jpg";
 import pizzabeer from "../assets/images/pizza-beer.jpg";
+import heroVideo from "../assets/videos/6176588-hd_1920_1080_25fps.mp4";
+import Button from "../components/Button";
 
 export default function Home() {
   return (
     <>
-      <Hero title="Baking real pizza since 1337" />
+      <Hero
+        title="Baking real pizza since 1337"
+        mediaType="video"
+        mediaSrc={heroVideo}
+      >
+        <Button text="Utforska meny" href="/meny" />
+      </Hero>
       <section className="homepage-container main-content">
         <Menu />
         <div className="homepage-grid-wrapper">
