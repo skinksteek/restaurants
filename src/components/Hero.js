@@ -8,6 +8,8 @@ export default function Hero({
   mediaSrc,
   altText,
   children,
+  contact,
+  info,
 }) {
   return (
     <section className="hero-container">
@@ -15,6 +17,8 @@ export default function Hero({
         <div className="heromodule-textcontent">
           <h1>{title}</h1>
           <span>{bread}</span>
+          <p>{info}</p>
+          <div>{contact}</div>
         </div>
         {children}
       </div>
