@@ -1,6 +1,6 @@
 export default function Find() {
   return (
-    <div className="main-content">
+    <div className="findpage-container main-content">
       <p>Hitta hit</p>
     </div>
   );
