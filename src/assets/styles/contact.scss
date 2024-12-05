@@ -1,0 +1,21 @@
+.contactpage-container {
+  height: 100vh;
+  background-color: grey;
+
+  & div {
+    padding-top: 1rem;
+
+    #phone-hover {
+      color: var(--white);
+      margin-right: 1rem;
+
+      & svg {
+        transition: all 0.3s ease-out;
+      }
+
+      & svg:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
