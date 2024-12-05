@@ -17,5 +17,16 @@
         transform: scale(1.2);
       }
     }
+
+    @media only screen and (width <= 385px) {
+      .phone-wrap {
+        display: flex;
+        flex-direction: column;
+
+        & #phone-hover {
+          margin-right: 0;
+        }
+      }
+    }
   }
 }

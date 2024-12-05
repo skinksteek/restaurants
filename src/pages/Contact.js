@@ -11,7 +11,7 @@ export default function Contact() {
         bread="INGA BORDSBOKNIGNAR – ENBART DROP IN."
         info="TAKE AWAY ETT SAMTAL BORT"
         contact={
-          <span>
+          <span className="phone-wrap">
             <a
               id="phone-hover"
               href="tel:+0046702785881"
