@@ -1,7 +1,18 @@
 .findus-container {
   .map-container {
-    width: 100%;
     height: 480px;
     margin: 0 auto;
+
+    @media only screen and (width <= 375px) {
+      width: 24vh;
+    }
+
+    @media only screen and (width >= 376px) {
+      width: 30vh;
+    }
+
+    @media only screen and (width >= 768px) {
+      width: 50vh;
+    }
   }
 }
