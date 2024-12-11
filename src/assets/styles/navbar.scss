@@ -16,6 +16,7 @@
     background: linear-gradient(90deg, #7a673d, #8f4545);
     border-radius: 30px / 60px;
     box-shadow: 0 0 5px 1px rgb(0 0 0 / 30%);
+    transition: all 300ms ease-out;
 
     li {
       list-style: none;
@@ -47,9 +48,13 @@
   }
 }
 
+.nav-list.scrolled {
+  transform: scale(0.9);
+}
+
 .logo-wrapper {
   img {
-    transition: 0.3s ease;
+    transition: 0.3s ease-out;
     transform: scale(1.2);
     height: 5rem;
 
