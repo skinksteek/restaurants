@@ -81,12 +81,12 @@ footer {
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
-  }
 
-  & adress {
-    font-style: normal;
-    line-height: 1.5;
-    font-size: 14px;
+    & address {
+      font-style: normal;
+      line-height: 1.5;
+      font-size: 14px;
+    }
   }
 }
 
