@@ -1,5 +1,4 @@
 .nav-wrapper {
-  padding: 0 20px;
   width: 100%;
   max-width: 1322px;
   position: fixed;
@@ -78,12 +77,6 @@
     }
   }
 }
-
-// @media only screen and (width <= 1024px) {
-//   .nav-wrapper .nav-list li a {
-//     font-size: 1rem;
-//   }
-// }
 
 @media only screen and (width <= 873px) {
   .nav-wrapper .nav-list {
