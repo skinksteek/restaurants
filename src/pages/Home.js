@@ -21,7 +21,15 @@ export default function Home() {
         <div className="homepage-grid-wrapper">
           <div className="homepage-grid-heading">
             <h1>Guido's Pizzeria och bar</h1>
-            <span>Det självklara valet i pizza och öl väg</span>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. Many desktop
+              publishing packages and web page editors now use Lorem Ipsum as
+              their default model text.
+            </p>
           </div>
           <div className="grid-item1">
             <img src={pepperoni} alt="Pepperoni Pizza" />
@@ -36,7 +44,12 @@ export default function Home() {
               eleifend eros in neque vehicula, non condimentum elit euismod.
               Integer non semper velit, ut auctor nibh. Nunc ultricies quam dui,
               eu tempor eros auctor a. Cras id tincidunt nisl. Etiam ac mi
-              massa. Aliquam iaculis arcu et nulla aliquet tempus
+              massa. Aliquam iaculis arcu et nulla aliquet tempus Donec sed diam
+              facilisis, cursus elit eu, commodo mauris. Praesent eleifend eros
+              in neque vehicula, non condimentum elit euismod. Integer non
+              semper velit, ut auctor nibh. Nunc ultricies quam dui, eu tempor
+              eros auctor a. Cras id tincidunt nisl. Etiam ac mi massa. Aliquam
+              iaculis arcu et nulla aliquet tempus
             </p>
           </div>
           <div className="grid-item3">
@@ -50,7 +63,12 @@ export default function Home() {
               Suspendisse feugiat non ante ac dictum. Aliquam nec sapien lorem.
               Curabitur pretium nisi lectus, eu tempor orci mattis ac. Aliquam
               non nulla non nibh lobortis gravida nec sed lectus. Praesent
-              sollicitudin velit vel urna faucibus consequat.
+              sollicitudin velit vel urna faucibus consequat. Donec sed diam
+              facilisis, cursus elit eu, commodo mauris. Praesent eleifend eros
+              in neque vehicula, non condimentum elit euismod. Integer non
+              semper velit, ut auctor nibh. Nunc ultricies quam dui, eu tempor
+              eros auctor a. Cras id tincidunt nisl. Etiam ac mi massa. Aliquam
+              iaculis arcu et nulla aliquet tempus
             </p>
           </div>
           <div className="grid-item5">
@@ -58,6 +76,7 @@ export default function Home() {
           </div>
           <div className="grid-item6">
             <div className="triangle-up"></div>
+
             <h2>Veggi-- what</h2>
             <span>Fresh and tasty</span>
             <p>
@@ -65,7 +84,12 @@ export default function Home() {
               lacinia lorem id elit egestas, vel rutrum massa eleifend. Maecenas
               auctor hendrerit neque dictum vestibulum. Vivamus lorem libero,
               imperdiet vel nunc vitae, ultricies euismod velit. Suspendisse
-              tincidunt nunc in auctor maximus.
+              tincidunt nunc in auctor maximus. Donec sed diam facilisis, cursus
+              elit eu, commodo mauris. Praesent eleifend eros in neque vehicula,
+              non condimentum elit euismod. Integer non semper velit, ut auctor
+              nibh. Nunc ultricies quam dui, eu tempor eros auctor a. Cras id
+              tincidunt nisl. Etiam ac mi massa. Aliquam iaculis arcu et nulla
+              aliquet tempus
             </p>
           </div>
         </div>
