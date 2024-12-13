@@ -301,3 +301,13 @@
     }
   }
 }
+
+@media only screen and (width <= 767px) {
+  .homepage-container {
+    .homepage-grid-wrapper {
+      .homepage-grid-heading {
+        width: auto;
+      }
+    }
+  }
+}
