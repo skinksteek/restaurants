@@ -2,7 +2,7 @@
 /* stylelint-disable named-grid-areas-no-invalid */
 
 .footer-container {
-  background: linear-gradient(90deg, #7a673d, #8f4545);
+  background-color: var(--lightblack);
   box-shadow: 0 0 5px 1px rgb(0 0 0 / 20%);
 }
 
@@ -17,7 +17,7 @@ footer {
     "logo socials"
     "links links";
   grid-template-columns: repeat(2, 1fr);
-  color: var(--white);
+  color: var(--main-color);
 
   &::after {
     content: "";
@@ -46,7 +46,7 @@ footer {
   font-size: 18px;
 
   & svg {
-    color: var(--white);
+    color: var(--main-color);
   }
 
   & a {

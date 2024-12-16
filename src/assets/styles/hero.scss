@@ -21,7 +21,12 @@
       }
 
       & span {
+        color: var(--secondary-color);
         letter-spacing: 2px;
+      }
+
+      & svg {
+        color: var(--main-color);
       }
     }
   }
@@ -29,7 +34,7 @@
 
 .hero-video-parent {
   margin: 0;
-  background: linear-gradient(90deg, #7a673d, #8f4545);
+  background-color: var(--lightblack);
 
   .hero-video,
   .hero-image {
